@@ -1,0 +1,48 @@
+.novedades {
+  margin: 0;
+  height: 518px;
+  border: 3px solid white;
+  background: repeating-linear-gradient(-190.5deg, white 0, white 18.375%, #0000ff 18.375%, #0000A3 99.9%, white 99.9%); }
+
+.titulo5 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  color: #FFFFFF;
+  margin-top: 213px;
+  text-align: center; }
+
+.btn {
+  text-align: center; }
+
+.boton2 {
+  height: 48px;
+  width: 288px;
+  margin-top: 36px;
+  background-color: #00F3BB;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none; }
+
+@media screen and (min-width: 768px) {
+  .novedades {
+    background: repeating-linear-gradient(-190.5deg, white 0, white 23.375%, #0000ff 23.375%, #0000A3 99.9%, white 99.9%); } }
+@media screen and (min-width: 992px) {
+  .novedades {
+    background: repeating-linear-gradient(-190.5deg, white 0, white 28.375%, #0000ff 28.375%, #0000A3 99.9%, white 99.9%); }
+
+  .btn {
+    font-size: 24px;
+    display: flex;
+    justify-content: center; }
+    .btn .boton2 {
+      height: 56px;
+      width: 345px; } }
+@media screen and (min-width: 1200px) {
+  .novedades {
+    background: repeating-linear-gradient(-189.5deg, white 0, white 33.375%, #0000ff 33.375%, #0000A3 99.9%, white 99.9%); }
+
+  .titulo5 {
+    margin-top: 243px; } }
+
+/*# sourceMappingURL=6-novedades.css.map */

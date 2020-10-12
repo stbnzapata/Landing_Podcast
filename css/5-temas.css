@@ -1,0 +1,42 @@
+.temas {
+  margin-left: 16px;
+  margin-right: 19px;
+  margin-top: 48px; }
+
+.titulo4 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 36px;
+  color: #060a24;
+  margin-bottom: 37px; }
+
+.temario {
+  text-align: center; }
+
+.temario .tema .t5 {
+  margin-bottom: 65px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 24px;
+  color: #060a24; }
+
+.blanco {
+  display: none; }
+
+@media screen and (min-width: 992px) {
+  .titulo4 {
+    margin-left: 100px; } }
+@media screen and (min-width: 1200px) {
+  .temario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+  .titulo4 {
+    margin-left: 200px; }
+
+  .tema {
+    margin: 20px; }
+
+  .sal {
+    display: block; } }
+
+/*# sourceMappingURL=5-temas.css.map */
