@@ -242,6 +242,7 @@
     margin-left: 200px;
   }
 }
+
 .fondo {
   width: 100%;
   margin: 0;
@@ -304,6 +305,24 @@ iframe {
 }
 .subtitulo #t3 {
   margin-top: 1em;
+}
+
+@media screen and  (min-width: 444px){
+  .fondo {
+    
+    background: repeating-linear-gradient(
+      -190.5deg,
+      white 0,
+      white 13%,
+      #0000ff 13%,
+      #0000a3 85.5%,
+      white 85.5%,
+      white 100%
+    );
+  }
+  .titulo2 {
+    margin-top: 191px;
+  }
 }
 
 @media screen and (min-width: 768px) {
