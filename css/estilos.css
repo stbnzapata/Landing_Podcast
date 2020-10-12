@@ -285,7 +285,7 @@ iframe {
 .phone .img-phone {
   margin-top: 37px;
   height: 519px;
-  z-index: 100px;
+  z-index: 100;
 }
 
 .subtitulo {
