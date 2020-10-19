@@ -281,6 +281,7 @@
 
 iframe {
   border: none;
+  width:100%;
 }
 
 .phone {
@@ -458,14 +459,15 @@ iframe {
       white 0,
       white 18.5%,
       #0000ff 18.5%,
-      #0000a3 64.5%,
-      white 64.5%,
+      #0000a3 67.5%,
+      white 67.5%,
       white 100%
     );
   }
 
   iframe {
-    height: 180px;
+    height: 190px;
+    margin-bottom: 10px;
   }
 
   .imagenes1 {
