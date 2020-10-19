@@ -50,7 +50,10 @@
   display: none;
 }
 .encabezado .btn:checked ~ .menu {
-  max-height: 224px;
+  max-height: 224px;  
+}
+.btn:checked ~ .articulo1 {
+  display: none;  
 }
 .encabezado .bars {
   width: 18px;
@@ -144,6 +147,9 @@
   .encabezado .menu .enlace:hover {
     background-color: aquamarine;
   }
+}
+.oculto{
+  display:none;
 }
 .articulo1 {
   margin-left: 16px;
